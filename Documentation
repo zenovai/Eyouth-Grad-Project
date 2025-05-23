@@ -1,0 +1,89 @@
+### Data Cleaning
+
+- Unpivoted the line downtime table.
+    
+- Remodeled the data.
+    
+- Added shift hours, time of day, batch time, and downtime columns in line productivity.
+    
+
+---
+
+### Questions
+
+- Total up and down time of each product line.
+    
+- Total up and down time of all product lines.
+    
+- Count of batches for each product.
+    
+- Most worked-on batch per product (time-based).
+    
+- Most worked-on batch by each operator (time-based).
+    
+- Total working hours for each operator.
+    
+- Total working hours for all operators.
+    
+- Efficiency of each product line with respect to total batch count of each line in %. (need to ask)
+    
+- Efficiency of each operator with respect to the lines they operated on % (Need to ask).
+    
+- Most occurring downtime factor.
+    
+- Most occurring factor for each operator (only if the factor was an operator error).
+    
+
+---
+
+### Advanced Production Efficiency & Throughput Analysis
+
+- Which product lines have the most variability in batch processing time? What causes this?
+    
+
+---
+
+### Operator & Workforce Productivity Optimization
+
+- Are certain operators more efficient on specific product lines? Should we assign them accordingly?
+    
+
+---
+
+### Time & Shift-Based Performance Trends
+
+- ~~Are there specific time intervals when downtime is more frequent?
+    
+- ~~Does production efficiency drop significantly at specific times of the day?
+    
+
+---
+
+### Downtime & Waste Reduction Strategies
+
+- ~~Is there a specific product line causing most of the downtime?
+    
+- What are the top three root causes of downtime, and how much do they contribute to total lost hours?
+    
+
+---
+
+### Insights:
+
+1. Cola is our most produced product, having 15 total batches, whereas Orange is the least with only 1 batch. Charlie and Dee worked on the most batches (11 each).
+    
+2. The top factors affecting downtime are machine adjustment, machine failure, and inventory shortage. 55.91% of total downtime is caused by operator errors, which need to be investigated.
+    
+3. Most of the downtime occurred during the production of Cola.
+    
+4. Dennis is our least effective worker with the least hours worked as well and should be investigated, while Charlie is our most effective worker with the most worked hours.
+    
+5. Most of the downtime occurs during noon, with the least during the night.
+    
+6. Orange's efficiency is well below 50% and needs to be investigated.
+    
+7. The most occurring downtime factors are machine adjustment, machine failure, and inventory shortage.
+    
+8. Factors with the most downtime are also the most occurring and, therefore, need to be investigated and fixed as soon as possible.
+    
+9. The drop in efficiency throughout the day isn't alarming but needs to be checked.
